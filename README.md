@@ -1,4 +1,4 @@
-Temporal java hello samples updated to run on Temporal Cloud
+# Temporal java hello samples updated to run on Temporal Cloud
 
 ## Reference source:
 ref: https://github.com/temporalio/samples-java/tree/main/core/src/main/java/io/temporal/samples/hello
