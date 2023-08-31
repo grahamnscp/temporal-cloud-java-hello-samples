@@ -1,11 +1,13 @@
-# Temporal java hello samples updated to run on Temporal Cloud
+# Temporal java hello samples updated to run on tcloud
 
 ## Reference source:
 ref: https://github.com/temporalio/samples-java/tree/main/core/src/main/java/io/temporal/samples/hello
 
 ## Environment
 Sample direnv .envrc file provided with classpath using target in maven pom.xml  
+```
 export CLASSPATH="./target/dependency/*:./target/hellosamples-1.0.jar"
+```
 
 ## Build
 Might need to tweek for java versions etc or use ide :)
