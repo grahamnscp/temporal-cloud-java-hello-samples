@@ -39,7 +39,7 @@ public class CloudClient {
     String cloudEndpoint = String.format("%s.tmprl.cloud:7233", cloudNamespace);
 
     try {
-      System.out.println(String.format("Conneting to %s", AppConfig.TEMPORAL_NAMESPACE));
+      System.out.println(String.format("Connecting to %s", AppConfig.TEMPORAL_NAMESPACE));
       InputStream clientCert = new FileInputStream(AppConfig.TLS_CERT_PATH);
       InputStream clientKey = new FileInputStream(AppConfig.TLS_KEY_PATH);
 
